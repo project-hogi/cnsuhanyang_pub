@@ -6,7 +6,7 @@
     <div id="containerwrap">
       <div id="container">
         <div class="conwrap">
-          <div style="text-align:center;"> <img src="/img/ready.jpg" alt="준비중입니다." /> </div>
+          <div style="text-align:center;"> <img src="../img/ready.jpg" alt="준비중입니다." /> </div>
           
           <!-- 
 							<div id="startup_lounge">
