@@ -101,4 +101,14 @@ $(function() {
 		next : '.roll_next',
 	});
 
+	$('.inno-content dt a').on('click',function(){
+		$('.inno-content dt').removeClass('on');
+		$(this).parent().addClass('on');
+		$('.inno-content dd').removeClass('on');
+		$(this).parent('dt').next('dd').addClass('on');
+	})
+	
+	
+	
+
 })
